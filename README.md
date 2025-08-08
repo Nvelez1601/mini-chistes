@@ -2,7 +2,7 @@
 Este proyecto demuestra una aplicación web completa con un backend en Python (FastAPI)
 y un frontend servido por un servidor Node.js (Express.js).
 
-![Interfaz](https://imgur.com/BTK4IAd)
+![Interfaz](https://imgur.com/a/aVwWaQz)
 
 # Tecnologías
 Backend: Python 3.x, FastAPI, Uvicorn

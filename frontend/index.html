@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chistes Aleatorios</title>
+    <title>¡Jokerator! Generador de Chistes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Generador de Chistes Aleatorios</h1>
-        <p id="joke-display">Haz clic en el botón para obtener un chiste.</p>
-        <button id="get-joke-btn">Obtener Chiste</button>
+    <div id="particles-js"></div>
+
+    <div class="main-container">
+        <div class="joke-card">
+            <header class="card-header">
+                <i class="fas fa-laugh-squint joke-icon"></i>
+                <h1 class="card-title">¡Jokerator!</h1>
+            </header>
+            
+            <div class="joke-content">
+                <p id="joke-display" class="joke-text">Haz clic en el botón para obtener una dosis de humor.</p>
+            </div>
+            
+            <div class="card-actions">
+                <button id="get-joke-btn" class="generate-btn">
+                    <i class="fas fa-dice"></i> Obtener Chiste
+                </button>
+            </div>
+        </div>
+        
+        <div class="share-options">
+            <button class="share-btn" id="share-twitter" title="Compartir en Twitter"><i class="fab fa-twitter"></i></button>
+            <button class="share-btn" id="share-whatsapp" title="Compartir en WhatsApp"><i class="fab fa-whatsapp"></i></button>
+        </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

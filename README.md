@@ -1,6 +1,9 @@
 # Mini-API de Chistes Fullstack
 Este proyecto demuestra una aplicación web completa con un backend en Python (FastAPI)
 y un frontend servido por un servidor Node.js (Express.js).
+
+![Interfaz](https://imgur.com/BTK4IAd)
+
 # Tecnologías
 Backend: Python 3.x, FastAPI, Uvicorn
 Servidor Frontend: Node.js, Express.js
